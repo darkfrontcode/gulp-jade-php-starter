@@ -1,7 +1,7 @@
 Gulp jade-php starter
 =====================
 ```
-Simple Gulp with jade-php starter example
+Simple gulp-jade-php boilerplate starter example
 ```
 
 ## how to install
