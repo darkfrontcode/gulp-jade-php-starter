@@ -1,0 +1,23 @@
+doctype html
+html(lang="pt-br")
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+
+		title Site
+		meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
+		link(rel='shortcut icon', type='image/x-icon', href='favicon.ico')
+		link(rel='stylesheet', href='css/main.css?v='+(new Date()).getTime())
+		link(rel="stylesheet", href="font-awesome/css/font-awesome.min.css")
+		
+		//- Css helper
+		script(src='js/modernizr-2.8.3.min.js')
+
+	body
+
+		<!--[if lt IE 9]>
+		<link rel='stylesheet' href='css/browsehappy.css'>
+		<div class="browserupgrade"><center><img src="img/logo/logo-protarget.png" alt="Protarget - Logotipo"/></center><span>Você esta usando um <strong>navegador desatualizado</strong>.</span><span> Por favor <a href="http://browsehappy.com/">atualize seu navegador aqui</a> para melhorar a sua experiência.</span></div>
+		<![endif]-->
+
+		block content

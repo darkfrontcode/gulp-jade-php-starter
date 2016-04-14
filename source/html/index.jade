@@ -1,0 +1,8 @@
+extends ./blocks/header.jade
+block content
+	include ./blocks/mixins.jade
+		
+	- $text = 'hello'
+	+button()
+	
+	include ./blocks/footer.jade
