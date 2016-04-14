@@ -2,7 +2,9 @@ extends ./blocks/header.jade
 block content
 	include ./blocks/mixins.jade
 		
-	- $text = 'hello'
-	+button()
+	+button(
+		'Leia mais',
+		'link'
+	)
 	
 	include ./blocks/footer.jade
