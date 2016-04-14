@@ -1,6 +1,9 @@
-mixin button()
-	button
-		span!=$text
+mixin button(text, link)
+	a.button(href="#{link}")
+		span #{text}
+		i.fa.fa-caret-right(aria-hidden="true")
 		
-//- - $text = 'hello'
-//- +button()
+//- +button(
+//- 	'Leia mais sobre a micam',
+//- 	'link'
+//- )
